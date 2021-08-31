@@ -484,8 +484,8 @@ class CourseController extends Controller
         // });
     }
 
-    public function testSecurity(Request $request){
-       return redirect('http://hk.yahoo.com');
-    } 
+    // public function testSecurity(Request $request){
+    //    return redirect('http://hk.yahoo.com');
+    // } 
 
 }

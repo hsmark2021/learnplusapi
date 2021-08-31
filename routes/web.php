@@ -58,7 +58,7 @@ $router->delete('lecture/{id}','LectureController@deleteLecture');
 
 $router->post('mail', 'CourseController@sendmail'); //ok
 
-$router->get('testsecurity', 'CourseController@testSecurity'); //ok
+// $router->get('testsecurity', 'CourseController@testSecurity'); //ok
 
 //Basic Test
 $router->get('/', function () use ($router) {
